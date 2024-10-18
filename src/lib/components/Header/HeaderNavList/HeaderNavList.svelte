@@ -6,6 +6,7 @@
   <ul class="md:flex">
     <HeaderNavItem text="Intro" />
     <HeaderNavItem text="Features" />
+    <HeaderNavItem text="Pricing" />
     <HeaderNavItem text="Testimonials" />
     <HeaderNavItem text="Discover" />
   </ul>
