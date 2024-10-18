@@ -17,7 +17,7 @@
 
   {#if isOpen}
     <div
-      class="absolute left-0 right-0 top-full w-full bg-white shadow-lg transition-opacity duration-300 ease-in-out z-10 border-t-[1px] border-gray-200 bg-opacity-85"
+      class="absolute left-0 right-0 top-full w-full bg-white shadow-lg transition-opacity duration-300 ease-in-out z-10 border-t-[1px] border-gray-200 bg-opacity-95"
     >
       <ul class="flex flex-col p-1">
         <div class="p-2"><HeaderNavItem text="Intro" /></div>
