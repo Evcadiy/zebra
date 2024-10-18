@@ -1,4 +1,7 @@
 <script>
+  import Hero from "$lib/components/Hero/Hero.svelte"
 </script>
 
-<section></section>
+<section>
+  <Hero />
+</section>
