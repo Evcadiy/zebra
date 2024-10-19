@@ -3,4 +3,8 @@
   .container {
     @apply w-full px-4 mx-auto;
   }
+
+  .container-secondary {
+    @apply w-full max-w-[1400px] min-h-screen py-6 md:py-20 flex flex-col flex-grow items-center px-4 mx-auto;
+  }
 }

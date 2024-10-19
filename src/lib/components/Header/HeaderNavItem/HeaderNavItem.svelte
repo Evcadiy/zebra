@@ -1,13 +1,11 @@
 <script>
   export let text
-  export let href = ""
+  export let href = "/"
 </script>
 
 <section>
   <li>
-    <a
-      href={href ? href : "/"}
-      class="mx-3 lg:mx-6 font-figtree font-medium text-black">{text}</a
+    <a {href} class="mx-3 lg:mx-6 font-figtree font-medium text-black">{text}</a
     >
   </li>
 </section>
