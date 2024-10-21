@@ -11,7 +11,7 @@
   import UserReviewsSection from "$lib/components/UserReviewsSection/UserReviewsSection.svelte"
 </script>
 
-<section class="bg-gradient-to-b from-white to-[#f1f5f9]">
+<section>
   <Hero />
   <main class="container-secondary">
     <IntroductionSection />

@@ -3,6 +3,7 @@
   import LoadingBar from "$lib/components/LoadingBar/LoadingBar.svelte"
   import { onMount } from "svelte"
   import "../styles/app.css"
+  import Footer from "$lib/components/Footer/Footer.svelte"
 
   let isLoading = true
 
@@ -12,5 +13,8 @@
 </script>
 
 <LoadingBar loading={isLoading} />
-<Header />
-<slot />
+<section class="bg-gradient-to-b from-white to-[#f1f5f9]">
+  <Header />
+  <slot />
+  <Footer />
+</section>
