@@ -1,4 +1,5 @@
 <script>
+  import AboutAuthorCard from "$lib/components/AboutAuthorCard/AboutAuthorCard.svelte"
   import Hero from "$lib/components/Hero/Hero.svelte"
   import IntroductionSection from "$lib/components/IntroductionSection/IntroductionSection.svelte"
   import LaunchStepsSection from "$lib/components/LaunchStepsSection/LaunchStepsSection.svelte"
@@ -13,5 +14,6 @@
     <ShowcaseSection />
     <TimeEfficiencySection />
     <LaunchStepsSection />
+    <AboutAuthorCard />
   </main>
 </section>
