@@ -5,6 +5,7 @@
   import IntroductionSection from "$lib/components/IntroductionSection/IntroductionSection.svelte"
   import LaunchStepsSection from "$lib/components/LaunchStepsSection/LaunchStepsSection.svelte"
   import PricingSection from "$lib/components/PricingSection/PricingSection.svelte"
+  import QuestionsSection from "$lib/components/QuestionsSection/QuestionsSection.svelte"
   import ShowcaseSection from "$lib/components/ShowcaseSection/ShowcaseSection.svelte"
   import TimeEfficiencySection from "$lib/components/TimeEfficiencySection/TimeEfficiencySection.svelte"
   import UserReviewsSection from "$lib/components/UserReviewsSection/UserReviewsSection.svelte"
@@ -21,5 +22,6 @@
     <UserReviewsSection />
     <PricingSection />
     <DiscordLink />
+    <QuestionsSection />
   </main>
 </section>
