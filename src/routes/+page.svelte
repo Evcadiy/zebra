@@ -5,6 +5,7 @@
   import LaunchStepsSection from "$lib/components/LaunchStepsSection/LaunchStepsSection.svelte"
   import ShowcaseSection from "$lib/components/ShowcaseSection/ShowcaseSection.svelte"
   import TimeEfficiencySection from "$lib/components/TimeEfficiencySection/TimeEfficiencySection.svelte"
+  import UserReviewsSection from "$lib/components/UserReviewsSection/UserReviewsSection.svelte"
 </script>
 
 <section class="bg-neutral-50">
@@ -15,5 +16,6 @@
     <TimeEfficiencySection />
     <LaunchStepsSection />
     <AboutAuthorCard />
+    <UserReviewsSection />
   </main>
 </section>
