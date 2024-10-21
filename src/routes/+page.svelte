@@ -1,5 +1,6 @@
 <script>
   import AboutAuthorCard from "$lib/components/AboutAuthorCard/AboutAuthorCard.svelte"
+  import DiscordLink from "$lib/components/DiscordLink/DiscordLink.svelte"
   import Hero from "$lib/components/Hero/Hero.svelte"
   import IntroductionSection from "$lib/components/IntroductionSection/IntroductionSection.svelte"
   import LaunchStepsSection from "$lib/components/LaunchStepsSection/LaunchStepsSection.svelte"
@@ -19,5 +20,6 @@
     <AboutAuthorCard />
     <UserReviewsSection />
     <PricingSection />
+    <DiscordLink />
   </main>
 </section>
