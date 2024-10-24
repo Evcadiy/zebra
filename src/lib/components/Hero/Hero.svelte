@@ -10,7 +10,7 @@
     <div class="lg:w-1/2 xl:w-[37%]">
       <HeroText />
     </div>
-    <div class="lg:w-1/2 xl:w-[63%] lg:pl-6 lg:pr-2 lg:pb-20 xl:pl-16">
+    <div class="lg:w-1/2 xl:w-[60%] lg:pl-6 lg:pr-2 lg:pb-20 xl:pl-16">
       <VideoBox />
     </div>
   </div>

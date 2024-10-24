@@ -1,6 +1,7 @@
 <script>
   import PricingItem from "./PricingItem/PricingItem.svelte"
   import arrowRightIcon from "../../../assets/icons/arrowright.svg"
+  import CountdownTimer from "../CountdownTimer/CountdownTimer.svelte"
 </script>
 
 <div class="mt-32 md:mt-40">
@@ -9,11 +10,11 @@
   >
     Save hours of research, launch your product now
   </h2>
-  <p class="mt-4 text-center text-sm md:text-lg text-balance">
-    Last discount for early-customers ends in <span
-      class="text-red-400 font-medium">3d 20h 30m 48s</span
-    >
-  </p>
+  <CountdownTimer
+    targetDate={"2025-01-01T00:00:00"}
+    class="text-sm md:text-lg"
+  />
+
   <div class="flex gap-4 mt-16 md:flex-row justify-center">
     <div
       class="flex flex-col rounded-xl border w-72 sm:w-80 md:w-96 bg-[#e5e5e5] bg-opacity-30"

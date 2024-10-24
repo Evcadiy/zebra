@@ -1,16 +1,22 @@
 <script>
+  import CountdownTimer from "../CountdownTimer/CountdownTimer.svelte"
   import VideoBox from "../VideoBox/VideoBox.svelte"
   import IntroductionButton from "./IntroductionButton/IntroductionButton.svelte"
 </script>
 
 <section class="flex flex-col items-center text-center max-w-screen-lg">
+  <div
+    class="text-4xl opacity-75 md:text-5xl lg:text-7xl font-semibold text-center text-balance py-12 md:pb-32 md:pt-6"
+  >
+    Introducing <span class="text-[#7c3aed]"> Persumi</span>
+  </div>
   <h1
     class="text-4xl md:text-5xl lg:text-6xl font-bold text-center text-balance"
   >
     Get the perfect product launch plan with Notion templates
   </h1>
   <p
-    class="max-w-[600px] text-muted-foreground text-center text-pretty md:text-lg text-base mx-4 font-light mt-4 md:mt-8"
+    class="max-w-[600px] text-center text-pretty md:text-lg text-base mx-4 font-light mt-4 md:mt-8"
   >
     Reclaim hours of research time with comprehensive launch checklists and
     hand-curated marketing directories.
@@ -20,20 +26,16 @@
   >
     <a
       href="/"
-      class="inline-flex items-center justify-center whitespace-nowrap font-medium transition-all focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:opacity-70 hover:no-underline disabled:pointer-events-none text-primary-foreground shadow-sm px-6 [&>svg]:h-4 [&>svg]:w-4 rounded-lg h-12 md:h-14 text-base md:text-lg md:w-auto"
+      class="inline-flex items-center justify-center whitespace-nowrap font-medium transition-all focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:opacity-70 hover:no-underline disabled:pointer-events-none shadow-sm px-6 rounded-lg h-12 md:h-14 text-base md:text-lg md:w-auto"
       >Get full access</a
     >
     <div
-      class="bg-red-500 text-destructive-foreground rounded-full px-2 py-0.5 md:py-1 md:text-sm ml-1 text-xs md:sm"
+      class="bg-red-500 rounded-full px-2 py-0.5 md:py-1 md:text-sm ml-1 text-xs md:sm"
     >
       40% OFF
     </div>
   </div>
-  <p class="mt-4 text-muted-foreground text-sm">
-    Last discount for early-customers ends in <span
-      class="text-red-400 font-medium">3d 20h 30m 48s</span
-    >
-  </p>
+  <CountdownTimer targetDate={"2025-01-01T00:00:00"} class="text-sm" />
   <div
     class="flex flex-col items-center justify-center gap-4 mt-12 text-left pb-10 md:pb-20"
   >
