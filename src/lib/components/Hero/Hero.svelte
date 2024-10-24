@@ -7,10 +7,10 @@
   <div
     class="container max-w-[95rem] mx-auto lg:flex flex-col flex-wrap items-center justify-center h-full"
   >
-    <div class="lg:w-1/2">
+    <div class="lg:w-1/2 xl:w-[37%]">
       <HeroText />
     </div>
-    <div class="lg:w-1/2 lg:pl-4 lg:pr-2 lg:pb-10">
+    <div class="lg:w-1/2 xl:w-[63%] lg:pl-6 lg:pr-2 lg:pb-20 xl:pl-16">
       <VideoBox />
     </div>
   </div>
